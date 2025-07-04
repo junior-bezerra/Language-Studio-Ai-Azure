@@ -1,0 +1,92 @@
+O Language Studio é uma ferramenta online da Microsoft Azure que permite explorar, testar e usar os serviços de inteligência artificial de linguagem natural (NLP) oferecidos pelo Azure AI. Uma das principais funcionalidades é o recurso "Analyze Text", ou seja, analisar texto com IA.
+
+🧠 O que é "Analyze Text" no Language Studio?
+O recurso "Analyze Text" permite que você envie um ou mais trechos de texto para que o Azure aplique modelos de IA e retorne análises linguísticas automatizadas, como:
+
+Detecção de idioma
+
+Análise de sentimentos
+
+Classificação de texto
+
+Extração de entidades (nomes de pessoas, lugares, empresas, etc.)
+
+Extração de frases-chave
+
+Reconhecimento de entidade com PII (informações sensíveis)
+
+Análise de opinião (em sentimentos)
+
+Tradução (via integração)
+
+🎯 Principais funcionalidades de análise
+Funcionalidade	O que faz
+Language Detection	Detecta automaticamente o idioma do texto.
+Sentiment Analysis	Classifica o texto como positivo, negativo, neutro ou misto.
+Entity Recognition	Identifica entidades como nomes, locais, organizações, datas, números.
+Key Phrase Extraction	Extrai as palavras ou frases mais importantes.
+PII Detection	Detecta e oculta informações sensíveis como CPF, e-mail, telefone.
+Custom Text Classification	Permite treinar modelos para classificar textos conforme categorias específicas.
+Custom Named Entity Recognition (NER)	Cria modelos que reconhecem tipos personalizados de entidades.
+
+🔍 Exemplo prático de análise de texto
+Texto de entrada:
+
+"Maria viajou para Nova York em março e gastou R$ 5.000 com o cartão da empresa XPTO."
+
+Resultado da análise automática:
+
+Idioma: Português
+
+Sentimento: Neutro
+
+Entidades:
+
+Pessoa: Maria
+
+Local: Nova York
+
+Data: março
+
+Organização: XPTO
+
+Quantia monetária: R$ 5.000
+
+Frases-chave: "Maria", "Nova York", "cartão da empresa XPTO"
+
+🧪 Como usar o "Analyze Text" no Language Studio?
+Acesse: https://language.azure.com
+
+Faça login com sua conta da Microsoft/Azure.
+
+Clique em "Analyze text" no menu.
+
+Escolha o idioma, cole seu texto e selecione os tipos de análise desejados.
+
+Clique em "Run" e veja os resultados no painel à direita.
+
+Você pode exportar os dados ou integrá-los em sistemas via API REST usando bibliotecas em Python, C#, Java etc.
+
+💡 Quando usar?
+Análise de opiniões em redes sociais ou pesquisas.
+
+Automatização de atendimento ao cliente.
+
+Filtragem de conteúdo sensível.
+
+Organização e classificação automática de documentos.
+
+Criação de sistemas de busca semântica.
+
+💰 Preço
+Há um nível gratuito para testes com limites mensais. O uso comercial é cobrado por número de documentos analisados.
+
+🛠️ Integração com sistemas
+Você pode consumir os modelos do Language Studio via API do Azure Cognitive Services. Ele também funciona bem com ferramentas como:
+
+Power BI (análise de sentimentos)
+
+Power Automate (automatização com IA)
+
+Aplicações personalizadas (via código)
+
