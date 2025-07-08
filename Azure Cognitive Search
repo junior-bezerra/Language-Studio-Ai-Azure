@@ -1,0 +1,66 @@
+Azure Cognitive Search: O Que É e Como Funciona?
+O Azure Cognitive Search (anteriormente conhecido como "Azure Search") é um serviço de busca em nuvem da Microsoft que combina recursos de pesquisa tradicional com inteligência artificial (IA) para oferecer resultados mais relevantes e inteligentes em aplicações.
+
+Ele é especialmente útil para cenários onde os dados são não estruturados (como documentos, PDFs, imagens, bancos de dados NoSQL) ou quando a busca precisa ir além de palavras-chave simples, entendendo o contexto semântico das consultas.
+
+🔍 Principais Recursos
+1. Indexação Avançada com IA
+Extrai texto de PDFs, imagens (OCR), tabelas, e-mails, JSON, etc.
+
+Usa habilidades cognitivas (como reconhecimento de entidades, análise de sentimentos, tradução) para enriquecer os dados.
+
+Exemplo:
+
+Se um documento contém a frase *"Reunião com João em São Paulo no dia 10/05"*, o Cognitive Search pode extrair:
+
+Entidade (Pessoa): "João"
+
+Local: "São Paulo"
+
+Data: "10/05"
+
+2. Pesquisa Semântica e Vetorial
+Pesquisa semântica: Entende a intenção por trás da consulta (ex.: "hotéis baratos perto da praia" retorna opções acessíveis próximas ao mar).
+
+Pesquisa vetorial: Usa embeddings (vetores de IA) para encontrar documentos semanticamente similares, mesmo sem palavras exatas.
+
+3. Suporte a Múltiplos Idiomas
+Funciona com mais de 50 idiomas, incluindo português.
+
+Pode traduzir consultas e resultados automaticamente.
+
+4. Integração com Outros Serviços Azure
+Conecta-se a:
+
+Azure Blob Storage (para documentos)
+
+Azure SQL Database (para dados estruturados)
+
+Cosmos DB (para NoSQL)
+
+SharePoint (para conteúdo empresarial)
+
+🛠 Casos de Uso Comuns
+E-commerce → Melhora a busca por produtos ("camiseta azul algodão" retorna itens relevantes).
+
+Sistemas de Documentação → Busca inteligente em manuais, contratos e FAQs.
+
+Aplicações Empresariais → Procura em e-mails, relatórios e dados internos.
+
+Chatbots e Assistência Virtual → Fornece respostas precisas baseadas em documentos.
+
+⚙ Como Implementar?
+Crie um serviço de Cognitive Search no portal Azure.
+
+Defina um indexador (para conectar a fontes de dados como Blob Storage ou SQL).
+
+Configure habilidades cognitivas (como extração de entidades ou OCR).
+
+Personalize a relevância (ajustando pesos de campos).
+
+Integre em seu app via API REST ou SDKs (C#, Python, etc.).
+
+💡 Benefícios
+✔ Escalável (lida com milhões de documentos).
+✔ Seguro (integração com Azure Active Directory).
+✔ Híbrido (pode indexar dados locais e na nuvem).
